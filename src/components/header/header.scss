@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $color1;
+  z-index: 100;
+}
+
+.nav {
+  height: 6.2rem;
+  width: 100%;
+  padding: 0 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  &__logo {
+   font-size: $size3;
+   color: $color3; 
+   text-decoration: none;
+   font-weight: bold;
+  }
+  &__logo--color {
+    color: $color2;
+  }
+}

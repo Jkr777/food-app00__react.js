@@ -1,0 +1,13 @@
+.links {
+  display: flex;
+}
+
+.link {
+  color: $color3;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  &--first {
+    margin-right: $space4;
+  }
+}
