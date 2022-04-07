@@ -1,0 +1,26 @@
+.footer__nav {
+  background-color: $color1;
+  height: 6.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: $space1;
+  &__link,
+  &__link--active {
+    margin-right: $space4;
+    font-weight: bold;
+    text-decoration: none;
+    color: $color3;
+    transition: all .2s;
+    border-bottom: solid .2rem transparent;
+  }
+  &__link:hover,
+  &__link--active {
+    border-bottom: solid .2rem $color8;
+    color: $color8;
+  }
+}
+
+.copyright {
+  margin-left: 8rem;
+}

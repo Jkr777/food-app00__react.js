@@ -2,12 +2,19 @@
   display: flex;
 }
 
-.link {
+.link,
+.link--active {
   color: $color3;
   text-decoration: none;
   display: flex;
   align-items: center;
-  &--first {
-    margin-right: $space4;
-  }
+  border-bottom: solid .2rem transparent;
+  transition: all .2s;
+  font-weight: bold;
+}
+
+.link:hover,
+.link--active {
+  color: $color8;
+  border-bottom: solid .2rem $color8;
 }

@@ -8,6 +8,7 @@ const Produse = lazy(() => import("./pages/produse"));
 const Cos = lazy(() => import("./pages/cos"));
 const Produs = lazy(() => import("./pages/produs"));
 const Profil = lazy(() => import("./pages/profil"));
+const Info = lazy(() => import("./pages/info"));
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
       <main className="main">
       <Suspense fallback={<h1>...loading</h1>}>
       <Routes>
-        <Route path="/" exact element={<HomePage />} />
-        <Route path="/cos" exact element={<Cos />} />
-        <Route path="/produse" exact element={<Produse />} />
-        <Route path="/produse/:id" exact element={<Produs />} />
-        <Route path="/profil" exact element={<Profil />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/cos" element={<Cos />} />
+        <Route path="/produse" element={<Produse />} />
+        <Route path="/produse/:id" element={<Produs />} />
+        <Route path="/profil" element={<Profil />} />
+        <Route path="/info/:id" element={<Info />} />
         <Route path="/*" element={<Navigate replace to="/" />} />
       </Routes>
       </Suspense>
