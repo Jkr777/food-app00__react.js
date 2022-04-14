@@ -1,0 +1,26 @@
+.categories-container {
+  padding: 0 $size5;
+  margin-bottom: $space4;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60rem;
+  }
+
+  &__left {
+    width: 40rem;
+    margin-right: $space4;
+    &__title {
+      font-size: $size3;
+      font-weight: bold;
+      margin-bottom: $space5;
+    }
+
+    &__description {
+      font-size: $size2;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.topIntro-container {
+  padding: $space4 $size5;
+  margin-bottom: $space4;
+  background-color: $color9;
+  display: flex;
+  height: 80rem;
+  &__left {
+    width: 50%;
+    padding-right: $space4;
+    margin-top: 15%;
+    &__title {
+      font-weight: bold;
+      font-size: $size4;
+      margin-bottom: $space5;
+      color: $color6;
+      
+    }
+    &__sub-title {
+      font-weight: bold;
+      font-size: $size2;
+      margin-bottom: $space4;
+    }
+  }
+  &__right {
+    width: 50%;
+    &__img {
+      height: 73rem;
+      width: 100%;
+    }
+  }
+}
