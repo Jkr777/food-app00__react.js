@@ -1,0 +1,16 @@
+.infoItem-container {
+  width: 24rem;
+  &__icon-back {
+    background-color: $color2;
+    padding: $space1;
+    width: 5rem;
+    border-radius: 30%;
+    margin-bottom: $space1;
+  }
+  &__title {
+    font-size: $size3;
+    display: block;
+    font-weight: bold;
+    margin-bottom: $space1;
+  }
+}
