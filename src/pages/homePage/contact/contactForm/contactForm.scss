@@ -1,0 +1,32 @@
+.contactForm-title {
+  display: block;
+  margin-bottom: $space2;
+  font-size: $size3;
+  text-transform: uppercase;
+  color: $color6;
+  font-weight: bold;
+}
+
+.contactForm-info {
+  display: block;
+  margin-bottom: $space3;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  &__input {
+    padding: .5rem;
+    border: none;
+    margin-bottom: $space2;
+  }
+
+  &__textArea {
+    margin-bottom: $space2;
+    border: none;
+    padding: .5rem;
+    height: 10rem;
+    font-family: inherit;
+    resize: none;
+  }
+}

@@ -1,0 +1,22 @@
+.contact-container {
+  margin: 0 $size5;
+  background-color: $color2;
+  margin-bottom: $space4;
+  display: flex;
+  justify-content: space-between;
+  height: 40rem;
+  &__form {
+    width: 52rem;
+    padding: $space3;
+  }
+  &__img {
+    width: 40rem;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 166, 48, .8), rgba(255, 166, 48, .5)), 
+      url('https://images.unsplash.com/photo-1588123190131-1c3fac394f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,4 +1,5 @@
 @import './utils/var.scss';
+@import './utils/mixin.scss';
 @import './utils/reusable.scss';
 @import './utils/btns.scss';
 
@@ -9,5 +10,7 @@
 @import '../pages/homePage/categories/category/category.scss';
 @import '../pages/homePage/moreInfo/moreInfo.scss';
 @import '../pages/homePage/moreInfo/infoItem/infoItem.scss';
+@import '../pages/homePage/contact/contact.scss';
+@import '../pages/homePage/contact/contactForm/contactForm.scss';
 @import '../components/footer/footer.scss';
 @import './base.scss';

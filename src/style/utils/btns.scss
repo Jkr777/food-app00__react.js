@@ -1,13 +1,7 @@
 .link-btn {
-  border: none;
+  @include btn;
   background-color: $color4;
-  width: 25rem;
-  cursor: pointer;
-  padding: 1.2rem 0;
   color: $color5;
-  font-size: $size2;
-  font-weight: bold;
-  transition: all .2s;
   &:hover {
     background-color: $color10;
     color: $color3;
