@@ -1,0 +1,54 @@
+.produs-container {
+  @include page;
+  display: flex;
+
+  &__img-container {
+    width: 55rem;
+    margin-right: $space4;
+    &__img {
+      width: inherit;
+      object-fit: cover;
+      height: 50rem;
+    }
+  }
+
+  &__info-container {
+    padding: $space2;
+    border: .2rem solid $color2;
+    margin-bottom: $space4;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      color: $color11;
+      font-size: $size3;
+      font-weight: bold;
+      background-color: $color1;
+      padding: $space2;
+      margin-bottom: $space2;
+    }
+
+    &__price {
+      display: flex;
+      align-items: center;
+      font-size: $size3;
+      color: $color12;
+      margin-bottom: $space2;
+      font-weight: bold;
+    }
+
+    &__description--title {
+      font-size: $size2;
+      font-weight: bold;
+      margin-bottom: $space2;
+    }
+
+    &__description {
+      margin-bottom: $space2;
+    }
+
+    &__quantity {
+      font-weight: bold;
+    }
+  }  
+}
