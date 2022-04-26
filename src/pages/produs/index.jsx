@@ -1,8 +1,8 @@
 function Produs() {
   return (
-    <section>
+    <div>
       Produs
-    </section>
+    </div>
   );
 }
 

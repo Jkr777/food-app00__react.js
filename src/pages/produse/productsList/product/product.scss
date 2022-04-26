@@ -1,0 +1,45 @@
+.productList-container {
+  width: 28rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border: .2rem solid $color2;
+  padding: $space2;
+  display: flex;
+  flex-direction: column;
+
+  &__img {
+    width: 100%;
+    margin-bottom: $space2;
+  }
+
+  &__nume {
+    color: $color11;
+    margin-bottom: $space1;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &:first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+  &__pret {
+    color: $color12;
+    font-size: $size2;
+    font-weight: bold;
+    margin-bottom: $space1;
+    display: flex;
+    align-items: center;
+  }
+
+  &__quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: $space2;
+    :nth-child(odd) {
+      font-size: $size3;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.input-search {
+  border: .2rem solid $color4;
+  background-color: transparent;
+  padding: .5rem;
+  color: $color4;
+  outline: none;
+  transition: all 0.2s;
+  &:focus {
+    outline: .1rem solid $color10;
+  }
+}
+
+.input-quantity {
+  padding: .2rem;
+  margin: 0 1rem;
+  outline: none;
+  &:focus {
+    outline: .1rem solid $color10;
+  }
+}

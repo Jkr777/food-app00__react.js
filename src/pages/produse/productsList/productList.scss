@@ -1,0 +1,17 @@
+.productsList-container {
+  width: 100%;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__last-item {
+    width: 28rem;
+    margin-right: 2rem;
+  }
+}
+
+.category-name {
+  display: block;
+  @include title-container;
+}

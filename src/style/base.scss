@@ -12,6 +12,11 @@
 body {
   font-size: 1.6rem;
   color: $color7;
+
+  @include respond(maxim-width) {
+    width: 1350px;
+    margin: 0 auto;
+  }
 }
 
 .main {

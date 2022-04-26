@@ -2,6 +2,7 @@
 @import './utils/mixin.scss';
 @import './utils/reusable.scss';
 @import './utils/btns.scss';
+@import './utils/inputs.scss';
 
 @import '../components/header/header.scss';
 @import '../components/header/navItems/navItems.scss';
@@ -12,5 +13,10 @@
 @import '../pages/homePage/moreInfo/infoItem/infoItem.scss';
 @import '../pages/homePage/contact/contact.scss';
 @import '../pages/homePage/contact/contactForm/contactForm.scss';
+@import '../pages/produse/produse.scss';
+@import '../pages/produse/filters/filters.scss';
+@import '../pages/produse/productsList/productList.scss';
+@import '../pages/produse/productsList/product/product.scss';
+
 @import '../components/footer/footer.scss';
 @import './base.scss';

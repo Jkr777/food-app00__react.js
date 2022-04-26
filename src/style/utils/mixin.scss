@@ -8,3 +8,27 @@
   font-weight: bold;
   transition: all .2s;
 }
+
+@mixin page {
+  padding: $space4 $size5;
+}
+
+@mixin title-container {
+  font-size: $size2;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: $space2;
+  background-color: $color1;
+  margin-bottom: $space3;
+}
+
+// iphone-plus // 420px
+// iphone // 375px
+// galaxy // 360px
+// galaxy-fold // 280px
+
+@mixin respond($breakpoint){
+  @if $breakpoint == maxim-width {
+    @media only screen and(min-width: 1350px) { @content };
+  }
+}

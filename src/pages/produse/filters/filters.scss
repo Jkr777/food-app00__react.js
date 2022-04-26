@@ -1,0 +1,10 @@
+.filters-container {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: $space4;
+  
+  &__title {
+    @include title-container;
+  }
+}

@@ -7,3 +7,13 @@
     color: $color3;
   }
 }
+
+.utility-btn {
+  @include btn;
+  background-color: $color13;
+  color: $color5;
+  &:hover {
+    background-color: $color7;
+    color: $color1;
+  }
+}

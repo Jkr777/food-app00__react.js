@@ -17,13 +17,20 @@
   position: relative;
   top: 0;
   left: 0;
+
   &__logo {
    font-size: $size3;
    color: $color3; 
    text-decoration: none;
    font-weight: bold;
   }
+
   &__logo--color {
     color: $color2;
+  }
+
+  @include respond(maxim-width) {
+    width: 1350px;
+    margin: 0 auto;
   }
 }
