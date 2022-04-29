@@ -38,12 +38,14 @@ function Auth() {
           <Login logInData={logInData} handleLogIn={handleLogIn} /> 
           <button className="utility-btn bottom--space-1_5">Logare</button>
           <span className="auth-form__info bottom--space-1_5">Client nou ? <Link className="link--info" to="/auth/creeaza-cont">Creeaza cont</Link></span>
-          <span className="auth-form__info bottom--space-3">Client nou ? <Link className="link--info" to="/auth/reset">Recupereaza parola</Link></span>
+          <span className="auth-form__info bottom--space-3">Client nou ? <Link className="link--info" to="/reset">Recupereaza parola</Link></span>
         </>
         ) : (
           <>
             <Register registerData={registerData} handleRegister={handleRegister} />
-            <button className="utility-btn">Logare</button>
+            <button className="utility-btn bottom--space-1_5">Logare</button>
+            <span className="auth-form__info bottom--space-3">Ai deja cont ? <Link className="link--info" to="/auth/logare">Login aici</Link></span>
+
           </>
         )}
       </form>
