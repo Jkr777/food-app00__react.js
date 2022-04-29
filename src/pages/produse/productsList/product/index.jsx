@@ -15,7 +15,7 @@ function Product({ _id, imgUrl, nume, pret }) {
         <input 
           type="number"
           className="input-quantity"
-        />
+        /> 
         <AiOutlineMinusSquare />
       </div>
       <button className="utility-btn">Adauga in cos</button>

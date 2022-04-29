@@ -7,6 +7,7 @@ const HomePage = lazy(() => import("./pages/homePage"));
 const Produse = lazy(() => import("./pages/produse"));
 const Cos = lazy(() => import("./pages/cos"));
 const Produs = lazy(() => import("./pages/produs"));
+const Auth = lazy(() => import("./pages/auth"));
 const Profil = lazy(() => import("./pages/profil"));
 const Info = lazy(() => import("./pages/info"));
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/cos" element={<Cos />} />
         <Route path="/produse/:id" element={<Produse />} />
         <Route path="/produs/:id" element={<Produs />} />
+        <Route path="/auth/:id" element={<Auth />} />
         <Route path="/profil" element={<Profil />} />
         <Route path="/info/:id" element={<Info />} />
         <Route path="/*" element={<Navigate replace to="/" />} />

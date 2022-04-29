@@ -1,0 +1,42 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: $space4 auto;
+  align-items: center;
+  border: solid .2rem $color2;
+
+  &__title {
+    background-color: $color1;
+    width: 100%;
+    color: $color11;
+    font-weight: bold;
+    padding: $space2;
+    text-align: center;
+    font-size: $size3;
+    margin-bottom: $space4;
+  }
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 25.5rem;
+
+  &__input {
+    width: 25.5rem;
+    padding: .5rem;
+    border: solid .1rem $color11;
+    margin-bottom: $space2;
+
+    &:focus {
+      outline: .1rem solid $color6;
+    }
+  }
+
+  &__info {
+    
+    font-size: $size1;
+    color: $color11;
+  }
+}
