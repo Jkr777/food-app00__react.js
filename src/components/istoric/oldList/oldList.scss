@@ -1,0 +1,12 @@
+.oldList-container {
+  border: solid $color2 .2rem;
+  margin-bottom: $space4;
+  color: $color11;
+
+  &__info {
+    display: block;
+    padding: $space1 $space2;
+    background-color: $color1;
+    font-weight: bold;
+  }
+}

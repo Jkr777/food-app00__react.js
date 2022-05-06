@@ -7,6 +7,7 @@ import categoriiReducer from "./reducers/categoriiReducer";
 import produseReducer from "./reducers/produseReducer";
 import produsReducer from "./reducers/produsReducer";
 import comandaReducer from "./reducers/comandaReducer";
+import istoricReducer from "./reducers/istoricReducer";
 
 
 const store = createStore(combineReducers({
@@ -14,7 +15,8 @@ const store = createStore(combineReducers({
   categorii: categoriiReducer,
   produse: produseReducer,
   produs: produsReducer,
-  comanda: comandaReducer
+  comanda: comandaReducer,
+  istoric: istoricReducer
 }), composeWithDevTools(applyMiddleware(thunk)));
 
 export default store;

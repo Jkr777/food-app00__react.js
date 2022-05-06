@@ -7,6 +7,9 @@
 
 @import '../components/header/header.scss';
 @import '../components/header/navItems/navItems.scss';
+@import '../components/profilNav/profilNav.scss';
+@import '../components/istoric/oldList/oldList.scss';
+@import '../components/istoric/oldList/oldListItems/oldListItems.scss';
 @import '../pages/homePage/topIntro/topIntro.scss';
 @import '../pages/homePage/categories/categories.scss';
 @import '../pages/homePage/categories/category/category.scss';
@@ -19,6 +22,7 @@
 @import '../pages/produse/productsList/productList.scss';
 @import '../pages/produse/productsList/product/product.scss';
 @import '../pages/produs/produs.scss';
+@import '../pages/profil/profil.scss';
 
 @import '../components/footer/footer.scss';
 @import './base.scss';

@@ -10,6 +10,14 @@
   margin-bottom: $space4;
 }
 
+.more__link {
+  cursor: pointer;
+  font-weight: bold;
+  color: $color14;
+  display: block;
+  text-align: center;
+}
+
 .link--info {
   color: $color14;
   text-decoration: none;

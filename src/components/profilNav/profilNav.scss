@@ -1,0 +1,19 @@
+.profilNav-container {
+  padding: $space1 $space2;
+  background-color: $color1;
+  margin-bottom: $space4;
+  
+  &__link {
+    color: $color15;
+    margin-right: $space4;
+    transition: all .3s;
+    text-decoration: none;
+    &:hover {
+      color: $color14;
+    }
+  }
+
+  &__link--active {
+    color: $color14;
+  }
+}

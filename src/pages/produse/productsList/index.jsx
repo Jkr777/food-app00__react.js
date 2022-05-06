@@ -8,6 +8,7 @@ function ProductsList({ products, category }) {
         {products.map(p => <Product key={p._id} {...p} />)}
         <p className="productsList-container__last-item"></p>
       </div>
+      <span className="more__link">mai multe</span>
     </div>
   );
 }
