@@ -1,0 +1,29 @@
+.container-produs {
+  border-bottom: solid .2rem $color2;
+  margin-bottom: $space2;
+  display: flex;
+  padding: $space5;
+  justify-content: space-between;
+  align-items: center;
+
+  &__item-data{
+    display: flex;
+    align-items: center;
+  }
+  
+  &__img {
+    width: 12rem;
+    height: 10rem;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: $space2;
+  }
+
+  &__price {
+    font-weight: bold;
+    color: $color12;
+  }
+}

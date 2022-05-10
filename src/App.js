@@ -25,6 +25,7 @@ function App() {
         <Route path="/produs/:id" element={<Produs />} />
         <Route path="/auth/:id" element={<Auth />} />
         <Route path="/profil" element={<Profil />} />
+        <Route path="/profil/:id" element={<Profil />} />
         <Route path="/reset" element={<Reset />} />
         <Route path="/info/:id" element={<Info />} />
         <Route path="/*" element={<Navigate replace to="/" />} />

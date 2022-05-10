@@ -1,0 +1,24 @@
+.cos-container {
+  @include page;
+  
+  &__title {
+    font-weight: bold;
+    font-size: $size3;
+    margin-bottom: $space4;
+  }
+
+  &__info {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: $space3;
+    color: $color3;
+  }
+
+  &__taxes {
+    display: block;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: $space4;
+  }
+}

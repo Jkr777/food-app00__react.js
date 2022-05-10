@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { AiOutlinePlusSquare, AiOutlineMinusSquare } from "react-icons/ai";
-import { BsCurrencyEuro } from "react-icons/bs";
 
 function Product({ _id, imgUrl, nume, pret }) {
   return (
@@ -9,7 +8,7 @@ function Product({ _id, imgUrl, nume, pret }) {
         <img className="productList-container__img" src={imgUrl} />
       </Link>
       <span className="productList-container__nume">{nume}</span>
-      <span className="productList-container__pret"><BsCurrencyEuro /> {pret}</span>
+      <span className="productList-container__pret">€{pret}</span>
       <div className="productList-container__quantity">
         <AiOutlinePlusSquare />
         <input 

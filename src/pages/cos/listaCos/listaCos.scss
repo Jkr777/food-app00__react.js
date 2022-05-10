@@ -1,14 +1,14 @@
-.oldList-container {
-  border: solid $color2 .2rem;
+.listaCos-container {
+  display: flex;
   margin-bottom: $space4;
-  color: $color11;
+  flex-direction: column;
 
   &__info {
+    display: flex;
+    justify-content: space-between;
     padding: $space1 $space2;
     background-color: $color1;
     font-weight: bold;
-    display: flex;
-    align-items: center;
     text-transform: capitalize;
   }
 }

@@ -1,6 +1,6 @@
 import TopIntro from "./topIntro";
 import Categories from "./categories";
-import MoreInfo from "./moreInfo";
+import MoreInfo from "../../components/moreInfo";
 import Contact from "./contact";
 
 function HomePage() {
